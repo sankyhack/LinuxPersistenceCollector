@@ -3,6 +3,7 @@
 Linux Persistence Collector is all about collecting and analyzing all the malware persistence entries in Linux OS.
 It will collect all the entries and store it in directory named "Collector" created in same directory from where tool will be run.
 Run this tool with root priviledges to avoid permission issues.
+persistencelist.txt file contains all the files and folders which malwares can use to maintain persistence
 
 After collecting files, Analyze function will look for keywords like "tmp" "http" "ExecStart" "www" in those files and store in file "MatchingKeywords.txt". 
 You can add your own keywords refer anayze.go file (line 45 ) 
@@ -17,3 +18,6 @@ So far this tool includes above mentioned things only.
 As a future improvement I will add command line flags. and Any other suggestion from you :) 
 
 #IR #LinuxPersistence #SOC #persistence #ThreatHunting
+
+This tool is inspired by blog Persistence series by Ruben Groenewoud and PANIX script
+https://github.com/Aegrah/PANIX

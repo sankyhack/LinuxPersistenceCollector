@@ -20,5 +20,5 @@ As a future improvement I will add command line flags. and Any other suggestion 
 #IR #LinuxPersistence #SOC #persistence #ThreatHunting
 
 This tool is inspired by blog Persistence series by Ruben Groenewoud and PANIX script
-Thanks Ruben
+Thanks Ruben for amazing series !!!
 https://github.com/Aegrah/PANIX
